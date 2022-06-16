@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CustomCollectionViewCell" customModule="Makeup" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="400"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="400"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gfz-Ns-A4h">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="290"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="290" id="QrS-mC-ywC"/>
+                            <constraint firstAttribute="width" constant="200" id="e5n-Nf-LyL"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8C-hj-WSD">
+                        <rect key="frame" x="0.0" y="290" width="200" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="8vg-8D-GhL"/>
+                            <constraint firstAttribute="width" constant="200" id="pYP-LY-hRB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yH0-c3-rvg">
+                        <rect key="frame" x="0.0" y="340" width="200" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="V2i-FO-buD"/>
+                            <constraint firstAttribute="height" constant="30" id="rL5-Ux-5w1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RZ-b3-Jiv">
+                        <rect key="frame" x="0.0" y="370" width="100" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Z9e-CU-QRc"/>
+                            <constraint firstAttribute="width" constant="100" id="buc-rQ-j9h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPB-jl-9T5">
+                        <rect key="frame" x="100" y="370" width="100" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Gje-4w-v0U"/>
+                            <constraint firstAttribute="width" constant="100" id="JVQ-tg-Ae0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="PPB-jl-9T5" firstAttribute="leading" secondItem="7RZ-b3-Jiv" secondAttribute="trailing" id="1Nk-Gf-w71"/>
+                <constraint firstAttribute="bottom" secondItem="7RZ-b3-Jiv" secondAttribute="bottom" id="4mp-ob-8U0"/>
+                <constraint firstItem="7RZ-b3-Jiv" firstAttribute="top" secondItem="yH0-c3-rvg" secondAttribute="bottom" id="4xP-oL-G9J"/>
+                <constraint firstItem="7RZ-b3-Jiv" firstAttribute="top" secondItem="yH0-c3-rvg" secondAttribute="bottom" id="DCq-L6-VzM"/>
+                <constraint firstItem="7RZ-b3-Jiv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Dww-HE-Y15"/>
+                <constraint firstAttribute="trailing" secondItem="l8C-hj-WSD" secondAttribute="trailing" id="EOO-Fn-NEM"/>
+                <constraint firstItem="l8C-hj-WSD" firstAttribute="top" secondItem="Gfz-Ns-A4h" secondAttribute="bottom" id="GR6-GI-poC"/>
+                <constraint firstAttribute="trailing" secondItem="Gfz-Ns-A4h" secondAttribute="trailing" id="IKS-zm-rVi"/>
+                <constraint firstItem="Gfz-Ns-A4h" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Na8-id-D60"/>
+                <constraint firstAttribute="bottom" secondItem="PPB-jl-9T5" secondAttribute="bottom" id="NjM-I7-q7I"/>
+                <constraint firstItem="l8C-hj-WSD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eMn-fp-2zv"/>
+                <constraint firstAttribute="trailing" secondItem="PPB-jl-9T5" secondAttribute="trailing" id="f0H-Mt-Cja"/>
+                <constraint firstItem="yH0-c3-rvg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kzr-W6-8GJ"/>
+                <constraint firstAttribute="trailing" secondItem="yH0-c3-rvg" secondAttribute="trailing" id="lux-Nx-iQ0"/>
+                <constraint firstItem="PPB-jl-9T5" firstAttribute="top" secondItem="yH0-c3-rvg" secondAttribute="bottom" id="uqK-KR-ImY"/>
+                <constraint firstItem="Gfz-Ns-A4h" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wjx-nK-NCd"/>
+                <constraint firstItem="yH0-c3-rvg" firstAttribute="top" secondItem="l8C-hj-WSD" secondAttribute="bottom" id="zKj-Sv-HdF"/>
+            </constraints>
+            <size key="customSize" width="225" height="371"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="categoryLabel" destination="yH0-c3-rvg" id="yjc-1h-7zK"/>
+                <outlet property="nameLabel" destination="l8C-hj-WSD" id="AaT-ov-6fn"/>
+                <outlet property="priceLabel" destination="7RZ-b3-Jiv" id="OUe-Ju-fU6"/>
+                <outlet property="productImage" destination="Gfz-Ns-A4h" id="akw-Nl-TK1"/>
+                <outlet property="ratingLabel" destination="PPB-jl-9T5" id="78e-AH-5KJ"/>
+            </connections>
+            <point key="canvasLocation" x="189.85507246376812" y="135.26785714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>
